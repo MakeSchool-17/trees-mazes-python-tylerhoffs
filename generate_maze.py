@@ -18,7 +18,7 @@ def create_dfs(m):
         else:
             current_cell = stack.pop()
         m.refresh_maze_view()
-    m.sate = 'solve'
+    m.state = 'solve'
 
 
 def main():
